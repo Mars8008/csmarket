@@ -1,9 +1,11 @@
 export default function Header() {
     return(
-        <div className="mt-[10px] bg-[#f7f7f7] flex text-black gap-[14px] text-[18px]  mt-[700px] h-[500px] px-3">
-            <div className="container mx-auto max-w-[1200px] max-sm:text-[14px] text-[20px]">
-           <p className=" font-bold max-sm:text-[16px] text-[28px] mt-[40px] mb-3">CSMarket</p>
-           <div className="min-md:flex min-md:justify-between">
+        <div className="mt-[10px] bg-[#f7f7f7] flex text-black gap-[14px] text-[18px]  mt-[700px] h-[500px] px-3 ">
+            <div className="container mx-auto max-w-[1200px] max-sm:text-[14px] text-[16px]">
+                 <div className="min-md:flex min-md:justify-between min-md:mt-[100px]">
+                    <div>
+           <p className=" font-bold max-sm:text-[16px] text-[28px] max-sm:mt-[40px] mb-3">CSMarket</p>
+          
            <div>
             <div className="flex max-sm:text-[16px] text-[20px] gap-10 mb-4 ml-0.5">
             <p>Mail:</p>
@@ -18,7 +20,7 @@ export default function Header() {
             <p> 549 Oak sr.Krystal</p>
             </div>
            </div>
-           
+           </div>
             <div>
                 <p className="font-bold">INFORMATION</p>
                 <p>Contact us</p>
@@ -27,7 +29,7 @@ export default function Header() {
                 <p>Order & Returns</p>
                 <p>FaQs</p>
             </div>
-            {/* <div>  <p className="font-bold">QUICK SHOP</p>
+            <div>  <p className="font-bold">QUICK SHOP</p>
                   <p>Knives</p>
                   <p>Gloves</p>
                   <p>Rifles</p>
@@ -39,7 +41,7 @@ export default function Header() {
                   <p>Charm</p>
                   <p>Agent</p>
                   <p>Others</p>
-            </div> */}
+            </div>
 
             <div> <p className="font-bold">CUSTOMER SERVICES</p>
                   <p>Orders FAQs</p>
@@ -51,7 +53,7 @@ export default function Header() {
            </div>
            </div>
            
-           
+           <div className=""></div>
         </div>
     )
 }
