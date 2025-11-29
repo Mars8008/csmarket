@@ -27,7 +27,7 @@ export default function Header() {
                 <p>Order & Returns</p>
                 <p>FaQs</p>
             </div>
-            <div>  <p className="font-bold">QUICK SHOP</p>
+            {/* <div>  <p className="font-bold">QUICK SHOP</p>
                   <p>Knives</p>
                   <p>Gloves</p>
                   <p>Rifles</p>
@@ -39,7 +39,7 @@ export default function Header() {
                   <p>Charm</p>
                   <p>Agent</p>
                   <p>Others</p>
-            </div>
+            </div> */}
 
             <div> <p className="font-bold">CUSTOMER SERVICES</p>
                   <p>Orders FAQs</p>
