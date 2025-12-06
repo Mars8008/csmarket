@@ -13,7 +13,7 @@ export default function Home() {
 
      <Head/>
      <div className="container mx-auto max-w-[1000px] px-[10px]">
-       <div className="mt-[10px] flex text-black gap-[14px] text-[18px] max-sm:text-[14px] font-semibold px-3">
+       <div className="mt-[10px] flex text-black gap-[14px] text-[16px] max-sm:text-[14px]  font-semibold px-3">
          <a href="/">
            <p className=" font-bold text-[28px] max-sm:text-[20px] max-sm:flex max-sm:justify-center max-sm:pt-1.5">CSMarket</p>
            </a>
